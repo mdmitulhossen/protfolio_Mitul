@@ -1,11 +1,12 @@
 import Title from "../components/Header/Title";
+import { FaHtml5 } from "react-icons/fa";
 
 
 const About = () => {
     return (
-        <div>
+        <div className="">
             <div className="px-7 py-5">
-                <Title title='About Me'/>
+                <Title title='About Me' />
             </div>
             {/* divider */}
             <div className="border-[0.5px] border-[#fff]/10"></div>
@@ -26,11 +27,38 @@ const About = () => {
             </div>
             {/* My services */}
             <div className="py-5">
-            <div className="px-7 py-5">
-                <Title title='My Services'/>
-            </div>
-            {/* divider */}
-            <div className="border-[0.5px] border-[#fff]/10"></div>
+                <div className="px-7 py-5">
+                    <Title title='My Services' />
+                </div>
+                {/* divider */}
+                <div className="border-[0.5px] border-[#fff]/10"></div>
+
+                {/* services */}
+                <div className="px-7 py-5 grid grid-cols-2 gap-2">
+                    <div className="text-[#949B9B] border-r border-[#fff]/20">
+                        <div className="w-[60px] h-[60px] border-2 rounded-full border-[#F6B846] text-[#F6B846] flex justify-center items-center">
+                            <FaHtml5 size={35}/>
+                        </div>
+                        <p className="text-white font-bold my-2">Front-end</p>
+                        <p>Modern and mobile-ready website that will help you reach all of your marketing.</p>
+                    </div>
+                    {/* reactJs website */}
+                    <div className="text-[#949B9B]  border-[#fff]/20 pl-3">
+                        <div className="w-[60px] h-[60px] border-2 rounded-full border-[#F6B846] text-[#F6B846] flex justify-center items-center">
+                            <FaHtml5 size={35}/>
+                        </div>
+                        <p className="text-white font-bold my-2">ReactJs Website</p>
+                        <p>Reactjs development services improve business websites.</p>
+                    </div>
+                    {/* MERN Stack */}
+                    <div className="text-[#949B9B]  border-[#fff]/20 pl-3">
+                        <div className="w-[60px] h-[60px] border-2 rounded-full border-[#F6B846] text-[#F6B846] flex justify-center items-center">
+                            <FaHtml5 size={35}/>
+                        </div>
+                        <p className="text-white font-bold my-2">MERN Stack</p>
+                        <p>Modern and mobile-ready website that will help you reach all of your marketing.</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
