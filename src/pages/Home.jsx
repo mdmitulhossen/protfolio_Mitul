@@ -1,4 +1,5 @@
 import About from "./About";
+import Resume from "./Resume";
 
 const Home = () => {
 
@@ -11,8 +12,8 @@ const Home = () => {
             <div id="about" className="">
                 <About/>
             </div>
-            <div id="resume" className=" bg-yellow-600 ">
-                Lorem ipsum dolor Lorem ipsum dolor sit, amet consectetur adipiss exercitationem nostrum!
+            <div id="resume" className="">
+                <Resume/>
             </div>
             <div id="portfolio" className=" bg-yellow-400 text-[50px]">
                 Portfolio

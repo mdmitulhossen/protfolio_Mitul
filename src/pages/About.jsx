@@ -34,7 +34,7 @@ const About = () => {
                 <div className="border-[0.5px] border-[#fff]/10"></div>
 
                 {/* services */}
-                <div className="px-7 py-5 grid grid-cols-2 gap-2">
+                <div className="px-7 py-5 grid grid-cols-2 gap-x-2 gap-y-8">
                     <div className="text-[#949B9B] border-r border-[#fff]/20">
                         <div className="w-[60px] h-[60px] border-2 rounded-full border-[#F6B846] text-[#F6B846] flex justify-center items-center">
                             <FaHtml5 size={35}/>
@@ -43,7 +43,7 @@ const About = () => {
                         <p>Modern and mobile-ready website that will help you reach all of your marketing.</p>
                     </div>
                     {/* reactJs website */}
-                    <div className="text-[#949B9B]  border-[#fff]/20 pl-3">
+                    <div className="text-[#949B9B]   pl-3">
                         <div className="w-[60px] h-[60px] border-2 rounded-full border-[#F6B846] text-[#F6B846] flex justify-center items-center">
                             <FaHtml5 size={35}/>
                         </div>
@@ -51,12 +51,12 @@ const About = () => {
                         <p>Reactjs development services improve business websites.</p>
                     </div>
                     {/* MERN Stack */}
-                    <div className="text-[#949B9B]  border-[#fff]/20 pl-3">
+                    <div className="text-[#949B9B]  border-r border-[#fff]/20 pl-3">
                         <div className="w-[60px] h-[60px] border-2 rounded-full border-[#F6B846] text-[#F6B846] flex justify-center items-center">
                             <FaHtml5 size={35}/>
                         </div>
                         <p className="text-white font-bold my-2">MERN Stack</p>
-                        <p>Modern and mobile-ready website that will help you reach all of your marketing.</p>
+                        <p>UI/UX focus on the user, frontend focus on the settings of the user, and backend focus on the data..</p>
                     </div>
                 </div>
             </div>

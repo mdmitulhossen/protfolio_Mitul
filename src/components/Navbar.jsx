@@ -84,7 +84,7 @@ const Navbar = () => {
             <a id='protfolioNav' className="text-white" onClick={()=>handleClickScroll('portfolio')}>
                 <div className="p-2 flex flex-col justify-center items-center cursor-pointer lg:border-b border-b-[#fff]/25">
                     <p className=""><IoIosCodeWorking  size={35} /></p>
-                    <p className="font-semibold  mt-1">PORTFOLIO</p>
+                    <p className="font-semibold  mt-1">PROJECTS</p>
                 </div>
             </a>
             <a id='contactNav' className="text-white" onClick={()=>handleClickScroll('contact')}>
