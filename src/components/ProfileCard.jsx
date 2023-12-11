@@ -7,10 +7,10 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 const ProfileCard = () => {
     return (
-        <div className="w-full shadow-2xl h-[80%] bg-[#222222] rounded-md overflow-hidden relative ">
+        <div className="w-full shadow-2xl lg:h-[80%] h-full bg-[#222222] rounded-md overflow-hidden relative ">
             <div className="img-container"></div>
             {/* body */}
-            <div className="absolute h-3/5 bg-[#222222] bottom-0 w-full rounded-t-[27%]">
+            <div className="absolute h-3/5 bg-[#222222] bottom-0 w-full rounded-t-[27%] ">
                 <div className='pt-[120px]'>
                     <p className='text-4xl font-bold text-center text-white'>Md Mitul Hossain</p>
                     <p className='text-center mt-2'>

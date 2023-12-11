@@ -7,7 +7,7 @@ const Home = () => {
       });
 
     return (
-        <div className="w-full shadow-2xl h-[75%] bg-[#222222] rounded-r-md overflow-y-auto">
+        <div className="w-full shadow-2xl lg:h-[75%] h-full bg-[#222222] rounded-r-md lg:overflow-y-auto">
             <div id="about" className="h-full">
                 <About/>
             </div>

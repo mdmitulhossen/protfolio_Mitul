@@ -67,22 +67,22 @@ const Navbar = () => {
       };
 
     return (
-        <div className="bg-[#222222] shadow-2xl  w-full rounded-lg">
+        <div className="bg-[#222222] shadow-2xl  w-full rounded-lg flex lg:flex-col  gap-5 justify-center divide-x-2 divide-[#fff]/20  lg:divide-x-0">
          
-            <a id='aboutNav' onClick={()=>handleClickScroll('about')} className="text-[#F6B846]">
-                <div className="p-2  flex flex-col justify-center items-center cursor-pointer border-b border-b-[#fff]/25">
+            <a id='aboutNav' onClick={()=>handleClickScroll('about')} className="text-[#F6B846] ">
+                <div className="p-2  flex flex-col justify-center items-center cursor-pointer lg:border-b border-b-[#fff]/25">
                     <p className=""><IoIosMan  size={35} /></p>
                     <p className="font-semibold  mt-1">ABOUT</p>
                 </div>
             </a>
             <a id='resumeNav' onClick={()=>handleClickScroll('resume')} className="text-white">
-                <div className="p-2  flex flex-col justify-center items-center cursor-pointer border-b border-b-[#fff]/25">
+                <div className="p-2  flex flex-col justify-center items-center cursor-pointer lg:border-b border-b-[#fff]/25">
                     <p className=""><TiDocumentText  size={35} /></p>
                     <p className="font-semibold  mt-1">RESUME</p>
                 </div>
             </a>
             <a id='protfolioNav' className="text-white" onClick={()=>handleClickScroll('portfolio')}>
-                <div className="p-2 flex flex-col justify-center items-center cursor-pointer border-b border-b-[#fff]/25">
+                <div className="p-2 flex flex-col justify-center items-center cursor-pointer lg:border-b border-b-[#fff]/25">
                     <p className=""><IoIosCodeWorking  size={35} /></p>
                     <p className="font-semibold  mt-1">PORTFOLIO</p>
                 </div>
