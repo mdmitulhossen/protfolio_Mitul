@@ -1,5 +1,5 @@
-import Navbar from "../omponents/Navbar";
-import ProfileCard from "../omponents/ProfileCard";
+import Navbar from "../components/Navbar";
+import ProfileCard from "../components/ProfileCard";
 import Home from "../pages/Home";
 
 const MainLayout = () => {
