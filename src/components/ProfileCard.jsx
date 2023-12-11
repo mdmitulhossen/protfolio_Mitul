@@ -5,6 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
+
+import resume from '../../resume_Md_Mitul_Hossain.pdf'
 const ProfileCard = () => {
     return (
         <div className="w-full shadow-2xl lg:h-[80%] h-full bg-[#222222] rounded-md overflow-hidden relative ">
@@ -40,11 +42,14 @@ const ProfileCard = () => {
                     </div>
 
                     <div className='flex gap-5 pt-6 justify-center'>
+                        <a href={resume} download={resume}>
+                            <button className='text-white flex justify-center items-center gap-4 border px-4 py-2 rounded-md hover:text-[#F6B846] hover:border-[#F6B846] duration-200' >
+                                Download CV <FaCloudDownloadAlt size={20} />
+                            </button>
+                        </a>
+
                         <button className='text-white flex justify-center items-center gap-4 border px-4 py-2 rounded-md hover:text-[#F6B846] hover:border-[#F6B846] duration-200' >
-                            Download CV <FaCloudDownloadAlt size={20}/>
-                        </button>
-                        <button className='text-white flex justify-center items-center gap-4 border px-4 py-2 rounded-md hover:text-[#F6B846] hover:border-[#F6B846] duration-200' >
-                            Contact Me <FaTelegramPlane size={20}/>
+                            Contact Me <FaTelegramPlane size={20} />
                         </button>
                     </div>
                 </div>
