@@ -1,4 +1,5 @@
 import About from "./About";
+import Contact from "./Contact";
 import Projects from "./Projects";
 import Resume from "./Resume";
 
@@ -19,8 +20,8 @@ const Home = () => {
             <div id="portfolio" className="pt-16">
                 <Projects/>
             </div>
-            <div id="contact" className=" bg-yellow-800 text-[50px]">
-                Contact
+            <div id="contact" className="pt-12">
+                <Contact/>
             </div>
         </div>
     );

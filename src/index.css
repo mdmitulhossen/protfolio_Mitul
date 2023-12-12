@@ -100,3 +100,10 @@ html {
       transform: scale(1.2);
     }
   }
+
+
+  /* Tabs */
+  .tabActive{
+    background-color: #F6B846;
+    color: #fff;
+  }
