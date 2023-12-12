@@ -1,6 +1,9 @@
 import Title from "../components/Header/Title";
 import ProjectCard from "../components/card/ProjectCard";
 import project1 from '../assets/project2.webp';
+import project_surplus from '../assets/project_surplus.png';
+import project_soulmate from '../assets/project_soulmate.png';
+import project_giga from '../assets/project_gigagadget.png';
 import { useState } from "react";
 
 const ProjectsData = [
@@ -8,19 +11,28 @@ const ProjectsData = [
         id: 1,
         title: 'Soulmate_connect',
         description: 'Online Matrimony Website',
-        img: project1,
+        img: project_soulmate,
         liveLink: 'https://soulmate-connect.web.app/',
-        githubLink: '',
+        githubLink: 'https://github.com/mdmitulhossen/soulmate-connect-client',
         tag: 'MERN'
     },
     {
         id: 2,
-        title: 'Soulmate_connect',
-        description: 'Online Matrimony Website',
-        img: project1,
-        liveLink: 'https://soulmate-connect.web.app/',
-        githubLink: '',
-        tag: 'REACT'
+        title: 'Food-Surplus-Saver',
+        description: 'Food Sharing and Surplus Reduction Platform',
+        img: project_surplus,
+        liveLink: 'https://food-surplus-saver.web.app',
+        githubLink: 'https://github.com/mdmitulhossen/food-surplus-saver-client',
+        tag: 'MERN'
+    },
+    {
+        id: 3,
+        title: 'gigagadgets',
+        description: 'Technology and electronics product selling',
+        img: project_giga,
+        liveLink: 'https://gigagadgets-f4dcf.web.app/',
+        githubLink: 'https://github.com/mdmitulhossen/giga-gadgets-client',
+        tag: 'MERN'
     },
 ]
 

@@ -3,9 +3,9 @@ import project1 from '../../assets/project2.webp';
 const ProjectCard = ({ project }) => {
 
     return (
-        <div className="w-full h-[330px]  group overflow-hidden shadow-2xl rounded border border-dashed border-[#fff]/20">
+        <div className="w-full h-auto  group overflow-hidden shadow-2xl rounded border border-dashed border-[#fff]/20">
             <div className='w-full h-[75%] overflow-hidden relative rounded-t'>
-                <img src={project.img} className=' h-full w-full object-fill group-hover:scale-110 duration-300 rounded-t' alt="" />
+                <img src={project.img} className='h-[290px] w-full object-fill group-hover:scale-110 duration-300 rounded-t' alt="" />
                 <div className='absolute group-hover:inset-0 bg-black/10 transition-all duration-300'>
                     <div className='absolute left-[-999px] transition-all duration-200 bottom-0 group-hover:left-1/2 transform -translate-x-1/2 flex gap-3 w-full'>
                         <a target='_blank' rel='noreferrer' className='flex-1' href={project.liveLink}>
