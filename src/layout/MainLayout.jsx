@@ -5,7 +5,7 @@ import Home from "../pages/Home";
 const MainLayout = () => {
     return (
         <div className="w-full h-screen  flex justify-center items-center relative">
-                <ul className="circles">
+                <ul className="circles w-full">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -28,6 +28,15 @@ const MainLayout = () => {
                     <Home/>
                 </div>
             </div>
+           
+                <div className="absolute bottom-0 left-0 w-full  bg-[#222222] hidden lg:block">
+                    <div className="flex justify-center items-center gap-4 text-white py-2">
+                        <p>© {new Date().getFullYear()} All Rights Reserved</p>
+                        <p>|</p>
+                        <p><span className="text-[#F6B846]">Md Mitul Hossain</span></p>
+                    </div>
+                </div>
+            
         </div>
     );
 };
