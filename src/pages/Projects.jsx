@@ -54,7 +54,7 @@ const Projects = () => {
                 <button onClick={(e)=>handletab(e,'ALL')} className="isActive text-xs font-bold text-[#F6B846] border border-[#F6B846] rounded px-2 py-1 duration-200 hover:bg-[#F6B846] hover:text-white">HTML CSS</button>
              </div>
 
-             <div className="grid grid-cols-2 gap-4 px-7 py-3">
+             <div className="grid md:grid-cols-2 gap-4 px-7 py-3">
                 {
                     projects.map(project => (
                         <ProjectCard key={project.id} project={project}/>

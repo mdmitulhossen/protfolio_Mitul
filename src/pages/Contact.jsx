@@ -31,10 +31,10 @@ const Contact = () => {
             {/* map */}
             <div className="px-7 py-5">
                 <div className="mapouter">
-                    <div className="gmap_canvas"><iframe className="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=kumarkhali,kushtia,bangladesh&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections NYT</a></div>
+                    <div className="gmap_canvas"><iframe className="gmap_iframe" scrolling="no"  src="https://maps.google.com/maps?hl=en&amp;q=kumarkhali,kushtia,bangladesh&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections NYT</a></div>
                 </div>
                 {/* address */}
-                <div className="grid grid-cols-2 gap-2 pt-8 text-[#949B9B]">
+                <div className="grid md:grid-cols-2 gap-2 pt-8 text-[#949B9B]">
                     <div>
                         <p><span className="text-white">ADDRESS</span> . . . . Kushtia,Khulna</p>
                         <p><span className="text-white">PHONE</span> . . . . +8801757267779</p>

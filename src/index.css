@@ -8,6 +8,7 @@ body {
   background-color: #161616;
   font-family: 'Lekton', sans-serif;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 html {
@@ -41,10 +42,6 @@ html {
 
 /* ====animated image============ */
 /*QuickReset*/
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
 
 .img-container {
   /* position: fixed; */
@@ -71,6 +68,7 @@ html {
   0%,
   8% {
     background-image: url("../src/assets/1.jpg");
+    background-size: 100% 100%;
     transform: scale(1);
   }
 
@@ -81,6 +79,7 @@ html {
   25%,
   33% {
     background-image: url('../src/assets/2.jpg');
+    background-size: 100% 100%;
     transform: scale(1);
   }
 
@@ -91,6 +90,7 @@ html {
   50%,
   58% {
     background-image: url('../src/assets/3.jpg');
+    background-size: 100% 100%;
     transform: scale(1);
   }
 
@@ -101,11 +101,13 @@ html {
   75%,
   83% {
     background-image: url('../src/assets/4.jpg');
+    background-size: 100% 100%;
     transform: scale(1);
   }
 
   100% {
     background-image: url('../src/assets/4.jpg');
+    background-size: 100% 100%;
     transform: scale(1.2);
   }
 }

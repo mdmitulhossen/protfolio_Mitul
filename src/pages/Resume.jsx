@@ -21,7 +21,7 @@ const Resume = () => {
                     <p className="text-white font-bold text-2xl">Education</p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid md:grid-cols-2 gap-4">
                     {/* DU */}
                     <div className="text-[#949B9B] pt-6 mt-3 border-t border-r border-[#fff]/20">
                         <p className="px-1 inline-block border border-[#F6B846] text-[#F6B846] text-xs">2020 - Present</p>
@@ -48,7 +48,7 @@ const Resume = () => {
                 {/* divider */}
                 <div className="border-[0.5px] border-[#fff]/10"></div>
 
-                <div className="px-7 py-5 grid grid-cols-2 gap-3">
+                <div className="px-7 py-5 grid md:grid-cols-2 gap-3">
                     <div className="">
                         <div className="flex gap-3 items-center pt-3">
                             <div className="w-[40px] h-[40px] border-2 rounded-full border-[#F6B846] text-[#F6B846] flex justify-center items-center">
@@ -79,7 +79,7 @@ const Resume = () => {
 
                     </div>
                     {/* Item 2 */}
-                    <div className="">
+                    <div className="mt-10 md:mt-0">
                         <div className="flex gap-3 items-center pt-3">
                             <div className="w-[40px] h-[40px] border-2 rounded-full border-[#F6B846] text-[#F6B846] flex justify-center items-center">
                                 <MdOutlineMenuBook  size={25} />

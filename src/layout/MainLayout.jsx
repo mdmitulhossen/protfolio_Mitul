@@ -5,7 +5,7 @@ import Home from "../pages/Home";
 const MainLayout = () => {
     return (
         <div className="w-full h-screen  flex justify-center items-center relative">
-                <ul className="circles w-full">
+                {/* <ul className="circles w-full">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -16,8 +16,8 @@ const MainLayout = () => {
                     <li></li>
                     <li></li>
                     <li></li>
-            </ul>
-            <div className="grid grid-cols-12   mx-auto max-w-[1400px] w-full h-full xl:px-10 px-4 gap-16 lg:gap-0 z-30">
+            </ul> */}
+            <div className="lg:grid grid-cols-12   mx-auto max-w-[1400px] w-full h-full xl:px-10 px-4 gap-16 lg:gap-0 z-30">
                 <div className="lg:col-span-1 flex col-span-full w-full  items-center ">
                     <Navbar />
                 </div>
