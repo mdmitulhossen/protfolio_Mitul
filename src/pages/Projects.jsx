@@ -40,7 +40,7 @@ const Projects = () => {
         setProjects(ProjectsData.filter(project => project.tag === tagValue))
     }
     return (
-        <div>
+        <div className="">
             <div className="px-7 py-5">
                 <Title title='Projects' />
             </div>

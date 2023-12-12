@@ -10,17 +10,17 @@ const Home = () => {
       });
 
     return (
-        <div className="w-full shadow-2xl lg:h-[75%] h-full bg-[#222222] rounded-r-md lg:overflow-y-auto">
+        <div className="w-full shadow-2xl lg:h-[70%] h-full bg-[#222222] rounded-r-md lg:overflow-y-auto">
             <div id="about" className="">
                 <About/>
             </div>
             <div id="resume" className="">
                 <Resume/>
             </div>
-            <div id="portfolio" className="pt-16">
+            <div id="portfolio" className="mt-16">
                 <Projects/>
             </div>
-            <div id="contact" className="pt-12">
+            <div id="contact" className="mt-12">
                 <Contact/>
             </div>
         </div>

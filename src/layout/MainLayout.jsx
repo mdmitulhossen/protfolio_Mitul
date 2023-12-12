@@ -9,10 +9,10 @@ const MainLayout = () => {
                 <div className="lg:col-span-1 flex col-span-full w-full  items-center ">
                     <Navbar />
                 </div>
-                <div className=" lg:col-span-5 col-span-full flex items-center h-[600px] lg:h-full ">
+                <div className=" lg:col-span-4 col-span-full flex items-center h-[600px] lg:h-full ">
                     <ProfileCard/>
                 </div>
-                <div className=" lg:col-span-6 col-span-full flex items-center pb-8 lg:pb-0  h-full lg:overflow-hidden">
+                <div className=" lg:col-span-7 col-span-full flex items-center pb-8 lg:pb-0  h-full lg:overflow-hidden">
                     <Home/>
                 </div>
             </div>
