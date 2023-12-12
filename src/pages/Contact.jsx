@@ -17,6 +17,9 @@ const Contact = () => {
         .then((result) => {
             toast.success('Message Send Successfully!! Wait for reply')
         })
+        .catch((error) => {
+            toast.error('Message Not Send!!')
+        });
     }
     return (
         <div>
